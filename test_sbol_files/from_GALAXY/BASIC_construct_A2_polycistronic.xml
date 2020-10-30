@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+   xmlns:sys-bio="http://sys-bio.org#">
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/BASIC_SEVA_37_CmR_p15A_1/1">
+    <sbol:displayId>BASIC_SEVA_37_CmR_p15A_1</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_SEVA_37_CmR_p15A_1"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/BASIC_SEVA_37_CmR_p15A_1/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/1">
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/BASIC_SEVA_37_CmR_p15A_1/1"/>
+        <sbol:displayId>BASIC_SEVA_37_CmR_p15A_1_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/LMP/1"/>
+        <sbol:displayId>LMP_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/LMS/1"/>
+        <sbol:displayId>LMS_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/P21683/1"/>
+        <sbol:displayId>P21683_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/P21684/1"/>
+        <sbol:displayId>P21684_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/P21685/1"/>
+        <sbol:displayId>P21685_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/PJ23111_BASIC/1"/>
+        <sbol:displayId>PJ23111_BASIC_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/UTR_A_RBSa/1"/>
+        <sbol:displayId>UTR_A_RBSa_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/UTR_A_RBSe/1"/>
+        <sbol:displayId>UTR_A_RBSe_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_0/1">
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://localhost/ComponentDefinition/UTR_C_RBSc/1"/>
+        <sbol:displayId>UTR_C_RBSc_0</sbol:displayId>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_0"/>
+        <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+        <sbol:version>1</sbol:version>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:displayId>BASIC_construct_A2</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/BASIC_construct_A2/1"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_0/1"/>
+        <sbol:displayId>BASIC_SEVA_37_CmR_p15A_1_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_annotation_0/BASIC_SEVA_37_CmR_p15A_1_annotation_0_range/1">
+            <sbol:displayId>BASIC_SEVA_37_CmR_p15A_1_annotation_0_range</sbol:displayId>
+            <sbol:end>4297</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_annotation_0/BASIC_SEVA_37_CmR_p15A_1_annotation_0_range"/>
+            <sbol:start>58</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_0/1"/>
+        <sbol:displayId>LMP_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_annotation_0/LMP_annotation_0_range/1">
+            <sbol:displayId>LMP_annotation_0_range</sbol:displayId>
+            <sbol:end>4354</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_annotation_0/LMP_annotation_0_range"/>
+            <sbol:start>4298</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_0/1"/>
+        <sbol:displayId>LMS_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_annotation_0/LMS_annotation_0_range/1">
+            <sbol:displayId>LMS_annotation_0_range</sbol:displayId>
+            <sbol:end>57</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_annotation_0/LMS_annotation_0_range"/>
+            <sbol:start>1</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_0/1"/>
+        <sbol:displayId>P21683_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_annotation_0/P21683_annotation_0_range/1">
+            <sbol:displayId>P21683_annotation_0_range</sbol:displayId>
+            <sbol:end>4653</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_annotation_0/P21683_annotation_0_range"/>
+            <sbol:start>4650</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_0/1"/>
+        <sbol:displayId>P21684_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_annotation_0/P21684_annotation_0_range/1">
+            <sbol:displayId>P21684_annotation_0_range</sbol:displayId>
+            <sbol:end>4774</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_annotation_0/P21684_annotation_0_range"/>
+            <sbol:start>4771</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_0/1"/>
+        <sbol:displayId>P21685_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_annotation_0/P21685_annotation_0_range/1">
+            <sbol:displayId>P21685_annotation_0_range</sbol:displayId>
+            <sbol:end>4713</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_annotation_0/P21685_annotation_0_range"/>
+            <sbol:start>4710</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_0/1"/>
+        <sbol:displayId>PJ23111_BASIC_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_annotation_0/PJ23111_BASIC_annotation_0_range/1">
+            <sbol:displayId>PJ23111_BASIC_annotation_0_range</sbol:displayId>
+            <sbol:end>4592</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_annotation_0/PJ23111_BASIC_annotation_0_range"/>
+            <sbol:start>4355</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_0/1"/>
+        <sbol:displayId>UTR_A_RBSa_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_annotation_0/UTR_A_RBSa_annotation_0_range/1">
+            <sbol:displayId>UTR_A_RBSa_annotation_0_range</sbol:displayId>
+            <sbol:end>4770</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_annotation_0/UTR_A_RBSa_annotation_0_range"/>
+            <sbol:start>4714</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_0/1"/>
+        <sbol:displayId>UTR_A_RBSe_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_annotation_0/UTR_A_RBSe_annotation_0_range/1">
+            <sbol:displayId>UTR_A_RBSe_annotation_0_range</sbol:displayId>
+            <sbol:end>4709</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_annotation_0/UTR_A_RBSe_annotation_0_range"/>
+            <sbol:start>4654</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_annotation_0/1">
+        <sbol:component rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_0/1"/>
+        <sbol:displayId>UTR_C_RBSc_annotation_0</sbol:displayId>
+        <sbol:location>
+          <sbol:Range rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_annotation_0/UTR_C_RBSc_annotation_0_range/1">
+            <sbol:displayId>UTR_C_RBSc_annotation_0_range</sbol:displayId>
+            <sbol:end>4649</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+            <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_annotation_0/UTR_C_RBSc_annotation_0_range"/>
+            <sbol:start>4593</sbol:start>
+            <sbol:version>1</sbol:version>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_annotation_0"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_0/1">
+        <sbol:displayId>constraint_0</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_0"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMS_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_1/1">
+        <sbol:displayId>constraint_1</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/BASIC_SEVA_37_CmR_p15A_1_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_2/1">
+        <sbol:displayId>constraint_2</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_2"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/LMP_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_3/1">
+        <sbol:displayId>constraint_3</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_3"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/PJ23111_BASIC_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_4/1">
+        <sbol:displayId>constraint_4</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_4"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_C_RBSc_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_5/1">
+        <sbol:displayId>constraint_5</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_5"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21683_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_6/1">
+        <sbol:displayId>constraint_6</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_6"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSe_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_7/1">
+        <sbol:displayId>constraint_7</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_7"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21685_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_8/1">
+        <sbol:displayId>constraint_8</sbol:displayId>
+        <sbol:object rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/P21684_0/1"/>
+        <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/constraint_8"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://localhost/ComponentDefinition/BASIC_construct_A2/UTR_A_RBSa_0/1"/>
+        <sbol:version>1</sbol:version>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/LMP/1">
+    <sbol:displayId>LMP</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/LMP"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000001"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/LMP/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/LMS/1">
+    <sbol:displayId>LMS</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/LMS"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000001"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/LMS/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/P21683/1">
+    <sbol:displayId>P21683</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/P21683"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/P21683/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/P21684/1">
+    <sbol:displayId>P21684</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/P21684"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/P21684/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/P21685/1">
+    <sbol:displayId>P21685</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/P21685"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/P21685/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/PJ23111_BASIC/1">
+    <sbol:displayId>PJ23111_BASIC</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/PJ23111_BASIC"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/PJ23111_BASIC/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/UTR_A_RBSa/1">
+    <sbol:displayId>UTR_A_RBSa</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/UTR_A_RBSa"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/UTR_A_RBSa/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/UTR_A_RBSe/1">
+    <sbol:displayId>UTR_A_RBSe</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/UTR_A_RBSe"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/UTR_A_RBSe/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://localhost/ComponentDefinition/UTR_C_RBSc/1">
+    <sbol:displayId>UTR_C_RBSc</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="https://localhost/ComponentDefinition/UTR_C_RBSc"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:sequence rdf:resource="https://localhost/Sequence/UTR_C_RBSc/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:version>1</sbol:version>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/BASIC_SEVA_37_CmR_p15A_1/1">
+    <sbol:displayId>BASIC_SEVA_37_CmR_p15A_1</sbol:displayId>
+    <sbol:elements>tttatctgattaataagatgatcttcttgagatcgttttggtctgcgcgtaatctcttgctctgaaaacgaaaaaaccgccttgcagggcggtttttcgaaggttctctgagctaccaactctttgaaccgaggtaactggcttggaggagcgcagtcaccaaaacttgtcctttcagtttagccttaaccggcgcatgacttcaagactaactcctctaaatcaattaccagtggctgctgccagtggtgcttttgcatgtctttccgggttggactcaagacgatagttaccggataaggcgcagcggtcggactgaacggggggttcgtgcatacagtccagcttggagcgaactgcctacccggaactgagtgtcaggcgtggaatgagacaaacgcggccataacagcggaatgacaccggtaaaccgaaaggcaggaacaggagagcgcacgagggagccgccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccaccactgatttgagcgtcagatttcgtgatgcttgtcaggggggcggagcctatggaaaaacggcttttgccgcggccctctcacttccctgttaagtatcttcctggcatcttccaggaaatctccgccccgttcgtaagccatttccgctcgccgcagtcgaacgaccgagcgtagcgagtcagtgagcgaggaagcggaatatatccggcgcgcccagctgtctagggcggcggatttgtcctactcaggagagcgttcaccgacaaacaacagataaaacgaaaggcccagtctttcgactgagcctttcgttttatttgatgcctttaattaaggctcgggagacctatcggtaataacagtccaatctggtgtaacttcggaatcgtccttgacagctagctcagtcctaggtataatgctagctactagtgaaagaggagaaatactagtatggttagcaaaggcgaggcggttatcaaggagtttatgcgttttaaggttcacatggagggtagcatgaatggtcacgagttcgagatcgagggtgaaggcgagggtcgtccgtacgaaggcacccagaccgcgaagctgaaagtgaccaagggtggcccgctgccgttcagctgggacatcctgagcccgcagttcatgtatggcagccgtgcgtttaccaaacacccggcggacattccggattactataagcaaagcttcccggaaggttttaaatgggagcgtgttatgaacttcgaagatggtggcgcggtgaccgttacccaggacaccagcctggaggatggcaccctgatttacaaggtgaaactgcgtggcaccaactttccgccggatggtccggttatgcagaagaaaacgatgggttgggaagcgagcaccgagcgtctgtatccggaagatggcgtgctgaagggtgatatcaaaatggcgctgcgtctgaaggacggtggccgttacctggcggattttaagaccacctataaagcgaagaaaccggtgcaaatgccgggtgcgtacaacgttgaccgtaaactggatattaccagccacaacgaggattataccgtggttgagcaatatgagcgtagcgagggtcgccacagcaccggcggcatggacgaactgtataagggatcctaataacgctgatagtgctagtgtagatcgctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactggctcgggtaagaactcgcacttcgtggaaacactattatctggtgggtctctgtccactagtcttggactcctgttgatagatccagtaatgacctcagaactccatctggatttgttcagaacgctcggttgccgccgggcgttttttattggtgagaatccaggggtccccaataattacgatttaaattggcgaaaatgagacgttgatcggcacgtaagaggttccaactttcaccataatgaaataagatcactaccgggcgctgagagatcccctcataatttccccaaagcgtaaccatgtgtgaataaattttgagctagtagggttgcagccacgagtaagtcttcccttgttattgtgtagccagaatgccgcaaaacttccatgcctaagcgaactgttgagagtacgtttcgatttctgactgtgttagcctggaagtgcttgtcccaaccttgtttctgagcatgaacgcccgcaagccaacatgttagttgaagcatcagggcgattagcagcatgatatcaaaacgctctgagctgctcgttcggctatggcgtaggcctagtccgtaggcaggacttttcaagtctcggaaggtttcttcaatctgcattcgcttcgaatagatattaacaagttgtttgggtgttcgaatttcaacaggtaagttagttgctagaacccatggctcctttgccgacgctgagtagattttaggtgacgggtggtgacaatgagtccgtgtcgagcgctgattttttcggcctttagagcgagatttatacaatagaatttggcatgagattggattgcttttagtcagcctcttatagcctaaagtctttgagtgactagatgacatatcatgtaagttgctgataggtttccagttttccgctcctaggtctgcatattgtacttttcctcttactcgacttaaccagtaccaacccagcttctcaacggatttataccatggcactttaaagccagcatcactgacaatgagcggtgtggtgttactcggtagaatgctcgcaaggtcggctagaaattggtcatgagctttctttgaacattgctctgaaagcgggaacgctttctcataaagagtaacagaacgaccgtgtagtgcgactgaagctcgcaataccataagtcgtttttgctcacgaatatcagaccagtcaacaagtacaatgggcatcgtattgcccgaacagataaagctagcatgccaacggtatacagcgagtcgctctttgtggaggtgacgattacctaacaatcggtcgattcgtttgatgttatgttttgttctcgctttggttggcaggttacggccaagttcggtaagagtgagagttttacagtcaagtaatgcgtggcaagccaacgttaagctgttgagtcgttttaagtgtaattcggggcagaattggtaaagagagtcgtgtaaaatatcgagttcgcacatcttgttgtctgattattgatttttcgcgaaaccatttgatcatatgacaagatgtgtatccaccttaacttaatgatttttaccaaaatcattaggggattcatcagtaccgggcgtattttttgagttatcgagattttcaggagctaaggaagctaaaatggagaaaaaaatcactggatataccaccgttgatatatcccaatggcatcgtaaagaacattttgaggcatttcagtcagttgctcaatgtacctataaccagaccgttcagctggatattacggcctttttaaagaccgtaaagaaaaataagcacaagttttatccggcctttattcacattcttgcccgcctgatgaatgctcatccggaatttcgtatggcaatgaaagacggtgagctggtgatatgggatagtgttcacccttgttacaccgttttccatgagcaaactgaaacgttttcatcgctctggagtgaataccacgacgatttccggcagtttctacacatatattcgcaagatgtggcgtgttacggtgaaaacctggcctatttccctaaagggtttattgagaatatgtttttcgtctcagccaatccctgggtgagtttcaccagttttgatttaaacgtggccaatatggacaacttcttcgcccccgttttcaccatgggcaaatattatacgcaaggcgacaaggtgctgatgccgctggcgattcaggttcatcatgccgtttgtgatggcttccatgtcggcagaatgcttaatgaattacaacagtactgcgatgagtggcagggcggggcgtaatttgacttttgtcggctcgacccacgactattgactgctctgagaaagttgattgttacgattagtccggccggccctagaaatat</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/BASIC_SEVA_37_CmR_p15A_1"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/BASIC_construct_A2/1">
+    <sbol:displayId>BASIC_construct_A2</sbol:displayId>
+    <sbol:elements>ggctcgggagacctatcggtaataacagtccaatctggtgtaacttcggaatcgtcctttatctgattaataagatgatcttcttgagatcgttttggtctgcgcgtaatctcttgctctgaaaacgaaaaaaccgccttgcagggcggtttttcgaaggttctctgagctaccaactctttgaaccgaggtaactggcttggaggagcgcagtcaccaaaacttgtcctttcagtttagccttaaccggcgcatgacttcaagactaactcctctaaatcaattaccagtggctgctgccagtggtgcttttgcatgtctttccgggttggactcaagacgatagttaccggataaggcgcagcggtcggactgaacggggggttcgtgcatacagtccagcttggagcgaactgcctacccggaactgagtgtcaggcgtggaatgagacaaacgcggccataacagcggaatgacaccggtaaaccgaaaggcaggaacaggagagcgcacgagggagccgccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccaccactgatttgagcgtcagatttcgtgatgcttgtcaggggggcggagcctatggaaaaacggcttttgccgcggccctctcacttccctgttaagtatcttcctggcatcttccaggaaatctccgccccgttcgtaagccatttccgctcgccgcagtcgaacgaccgagcgtagcgagtcagtgagcgaggaagcggaatatatccggcgcgcccagctgtctagggcggcggatttgtcctactcaggagagcgttcaccgacaaacaacagataaaacgaaaggcccagtctttcgactgagcctttcgttttatttgatgcctttaattaaggctcgggagacctatcggtaataacagtccaatctggtgtaacttcggaatcgtccttgacagctagctcagtcctaggtataatgctagctactagtgaaagaggagaaatactagtatggttagcaaaggcgaggcggttatcaaggagtttatgcgttttaaggttcacatggagggtagcatgaatggtcacgagttcgagatcgagggtgaaggcgagggtcgtccgtacgaaggcacccagaccgcgaagctgaaagtgaccaagggtggcccgctgccgttcagctgggacatcctgagcccgcagttcatgtatggcagccgtgcgtttaccaaacacccggcggacattccggattactataagcaaagcttcccggaaggttttaaatgggagcgtgttatgaacttcgaagatggtggcgcggtgaccgttacccaggacaccagcctggaggatggcaccctgatttacaaggtgaaactgcgtggcaccaactttccgccggatggtccggttatgcagaagaaaacgatgggttgggaagcgagcaccgagcgtctgtatccggaagatggcgtgctgaagggtgatatcaaaatggcgctgcgtctgaaggacggtggccgttacctggcggattttaagaccacctataaagcgaagaaaccggtgcaaatgccgggtgcgtacaacgttgaccgtaaactggatattaccagccacaacgaggattataccgtggttgagcaatatgagcgtagcgagggtcgccacagcaccggcggcatggacgaactgtataagggatcctaataacgctgatagtgctagtgtagatcgctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactggctcgggtaagaactcgcacttcgtggaaacactattatctggtgggtctctgtccactagtcttggactcctgttgatagatccagtaatgacctcagaactccatctggatttgttcagaacgctcggttgccgccgggcgttttttattggtgagaatccaggggtccccaataattacgatttaaattggcgaaaatgagacgttgatcggcacgtaagaggttccaactttcaccataatgaaataagatcactaccgggcgctgagagatcccctcataatttccccaaagcgtaaccatgtgtgaataaattttgagctagtagggttgcagccacgagtaagtcttcccttgttattgtgtagccagaatgccgcaaaacttccatgcctaagcgaactgttgagagtacgtttcgatttctgactgtgttagcctggaagtgcttgtcccaaccttgtttctgagcatgaacgcccgcaagccaacatgttagttgaagcatcagggcgattagcagcatgatatcaaaacgctctgagctgctcgttcggctatggcgtaggcctagtccgtaggcaggacttttcaagtctcggaaggtttcttcaatctgcattcgcttcgaatagatattaacaagttgtttgggtgttcgaatttcaacaggtaagttagttgctagaacccatggctcctttgccgacgctgagtagattttaggtgacgggtggtgacaatgagtccgtgtcgagcgctgattttttcggcctttagagcgagatttatacaatagaatttggcatgagattggattgcttttagtcagcctcttatagcctaaagtctttgagtgactagatgacatatcatgtaagttgctgataggtttccagttttccgctcctaggtctgcatattgtacttttcctcttactcgacttaaccagtaccaacccagcttctcaacggatttataccatggcactttaaagccagcatcactgacaatgagcggtgtggtgttactcggtagaatgctcgcaaggtcggctagaaattggtcatgagctttctttgaacattgctctgaaagcgggaacgctttctcataaagagtaacagaacgaccgtgtagtgcgactgaagctcgcaataccataagtcgtttttgctcacgaatatcagaccagtcaacaagtacaatgggcatcgtattgcccgaacagataaagctagcatgccaacggtatacagcgagtcgctctttgtggaggtgacgattacctaacaatcggtcgattcgtttgatgttatgttttgttctcgctttggttggcaggttacggccaagttcggtaagagtgagagttttacagtcaagtaatgcgtggcaagccaacgttaagctgttgagtcgttttaagtgtaattcggggcagaattggtaaagagagtcgtgtaaaatatcgagttcgcacatcttgttgtctgattattgatttttcgcgaaaccatttgatcatatgacaagatgtgtatccaccttaacttaatgatttttaccaaaatcattaggggattcatcagtaccgggcgtattttttgagttatcgagattttcaggagctaaggaagctaaaatggagaaaaaaatcactggatataccaccgttgatatatcccaatggcatcgtaaagaacattttgaggcatttcagtcagttgctcaatgtacctataaccagaccgttcagctggatattacggcctttttaaagaccgtaaagaaaaataagcacaagttttatccggcctttattcacattcttgcccgcctgatgaatgctcatccggaatttcgtatggcaatgaaagacggtgagctggtgatatgggatagtgttcacccttgttacaccgttttccatgagcaaactgaaacgttttcatcgctctggagtgaataccacgacgatttccggcagtttctacacatatattcgcaagatgtggcgtgttacggtgaaaacctggcctatttccctaaagggtttattgagaatatgtttttcgtctcagccaatccctgggtgagtttcaccagttttgatttaaacgtggccaatatggacaacttcttcgcccccgttttcaccatgggcaaatattatacgcaaggcgacaaggtgctgatgccgctggcgattcaggttcatcatgccgtttgtgatggcttccatgtcggcagaatgcttaatgaattacaacagtactgcgatgagtggcagggcggggcgtaatttgacttttgtcggctcgacccacgactattgactgctctgagaaagttgattgttacgattagtccggccggccctagaaatatggctcgggtaagaactcgcacttcgtggaaacactattatctggtgggtctctgtcctctggtgggtctctgtccccaattattgaacacccttcggggtgtttttttgtttctggtctaccatctcgttgtgataatagacctgaagtgcctactctggaaaatctttgacggctagctcagtcctaggtatagtgctagcagctgtcaccggatgtgctttccggtctgatgagtccgtgaggacgaaacagcctctacaaataattttgtttaaggctcgggagacctatcgggctcgtgttactattggctgagataagggtagcagaaaaaagaggggaaatagtcctataggctcgttgaacaccgtctcaggtaagtatcagttgtaaatctcgggaggtagtcctataggctcgttgaacaccgtctcaggtaagtatcagttgtaaaaagaggagaaatagtcctata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/BASIC_construct_A2"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/LMP/1">
+    <sbol:displayId>LMP</sbol:displayId>
+    <sbol:elements>ggctcgggtaagaactcgcacttcgtggaaacactattatctggtgggtctctgtcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/LMP"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/LMS/1">
+    <sbol:displayId>LMS</sbol:displayId>
+    <sbol:elements>ggctcgggagacctatcggtaataacagtccaatctggtgtaacttcggaatcgtcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/LMS"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/P21683/1">
+    <sbol:displayId>P21683</sbol:displayId>
+    <sbol:elements>tata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/P21683"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/P21684/1">
+    <sbol:displayId>P21684</sbol:displayId>
+    <sbol:elements>tata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/P21684"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/P21685/1">
+    <sbol:displayId>P21685</sbol:displayId>
+    <sbol:elements>tata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/P21685"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/PJ23111_BASIC/1">
+    <sbol:displayId>PJ23111_BASIC</sbol:displayId>
+    <sbol:elements>tctggtgggtctctgtccccaattattgaacacccttcggggtgtttttttgtttctggtctaccatctcgttgtgataatagacctgaagtgcctactctggaaaatctttgacggctagctcagtcctaggtatagtgctagcagctgtcaccggatgtgctttccggtctgatgagtccgtgaggacgaaacagcctctacaaataattttgtttaaggctcgggagacctatcg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/PJ23111_BASIC"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/UTR_A_RBSa/1">
+    <sbol:displayId>UTR_A_RBSa</sbol:displayId>
+    <sbol:elements>ggctcgttgaacaccgtctcaggtaagtatcagttgtaaaaagaggagaaatagtcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/UTR_A_RBSa"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/UTR_A_RBSe/1">
+    <sbol:displayId>UTR_A_RBSe</sbol:displayId>
+    <sbol:elements>ggctcgttgaacaccgtctcaggtaagtatcagttgtaaatctcgggaggtagtcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/UTR_A_RBSe"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://localhost/Sequence/UTR_C_RBSc/1">
+    <sbol:displayId>UTR_C_RBSc</sbol:displayId>
+    <sbol:elements>ggctcgtgttactattggctgagataagggtagcagaaaaaagaggggaaatagtcc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    <sbol:persistentIdentity rdf:resource="https://localhost/Sequence/UTR_C_RBSc"/>
+    <sbol:version>1</sbol:version>
+  </sbol:Sequence>
+</rdf:RDF>

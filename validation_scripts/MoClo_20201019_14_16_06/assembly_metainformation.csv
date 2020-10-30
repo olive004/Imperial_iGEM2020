@@ -1,0 +1,52 @@
+Single
+
+Not using thermocycler module
+
+P10 Mount:,right
+
+
+Labware,Labware definition,Position
+DNA Source plate,biorad_96_wellplate_200ul_pcr,1
+Reaction plate,biorad_96_wellplate_200ul_pcr,tempdeck (10)
+"Trough (contains water, washes)",usascientific_12_reservoir_22ml,5
+Reagents plate,biorad_96_wellplate_200ul_pcr,4
+
+
+PARTS
+name,well,plate,combinations
+BBa_J23100,A1,parts_1,"['pICH47742', 'pICH47732']"
+BBa_J23106,A2,parts_1,"['pICH47742', 'pICH47732']"
+BBa_J23114,A4,parts_1,"['pICH47732', 'pICH47742']"
+BBa_K1114211,A5,parts_1,"['pICH47742', 'pICH47742', 'pICH47742', 'pICH47742', 'pICH47742']"
+Bba_J23102,A6,parts_1,"['pICH47732', 'pICH47742']"
+Bba_J23119,A7,parts_1,"['pICH47742', 'pICH47732']"
+pC0_009,A8,parts_1,"['pICH47732', 'pICH47732', 'pICH47732', 'pICH47732', 'pICH47732']"
+pC0_062,B1,parts_1,"['pICH47732', 'pICH47732', 'pICH47732', 'pICH47732', 'pICH47732']"
+pC0_069,B2,parts_1,"['pICH47742', 'pICH47742', 'pICH47742', 'pICH47742', 'pICH47742']"
+pICH47732,B3,parts_1,0
+pICH47742,B4,parts_1,0
+
+COMBINATIONS
+name,parts,well,no_parts,plate
+pICH47732,"['BBa_J23114', 'pC0_009', 'pC0_062']",A1,3,reaction_plate
+pICH47732,"['Bba_J23102', 'pC0_009', 'pC0_062']",B1,3,reaction_plate
+pICH47742,"['Bba_J23119', 'BBa_K1114211', 'pC0_069']",C1,3,reaction_plate
+pICH47742,"['BBa_J23100', 'BBa_K1114211', 'pC0_069']",D1,3,reaction_plate
+pICH47742,"['BBa_J23114', 'BBa_K1114211', 'pC0_069']",E1,3,reaction_plate
+pICH47742,"['BBa_J23106', 'BBa_K1114211', 'pC0_069']",F1,3,reaction_plate
+pICH47742,"['Bba_J23102', 'BBa_K1114211', 'pC0_069']",G1,3,reaction_plate
+pICH47732,"['Bba_J23119', 'pC0_009', 'pC0_062']",H1,3,reaction_plate
+pICH47732,"['BBa_J23100', 'pC0_009', 'pC0_062']",A2,3,reaction_plate
+pICH47732,"['BBa_J23106', 'pC0_009', 'pC0_062']",B2,3,reaction_plate
+
+MASTER_MIX
+well,no_parts,vol_per_assembly,combinations,no_assemblies,buffer_vol,ligase_vol,enzyme_vol,water_vol,plate
+H12,3,14,"['pICH47732', 'pICH47732', 'pICH47742', 'pICH47742', 'pICH47742', 'pICH47742', 'pICH47742', 'pICH47732', 'pICH47732', 'pICH47732']",10,24,6.0,12,126.0,reaction_plate
+
+REAGENTS
+name,well,plate,volume,mm_wells
+ligase,H12,reagents_plate,20.0,['H12']
+restriction_enzyme,G12,reagents_plate,40.0,['H12']
+buffer,F12,reagents_plate,80.0,['H12']
+water,A1,trough,15000.0,['H12']
+

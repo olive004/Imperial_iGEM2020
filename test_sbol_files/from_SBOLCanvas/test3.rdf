@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:SBOLCanvas="https://sbolcanvas.org/">
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K090505/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K090505"/>
+    <sbol:displayId>BBa_K090505</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BBa_K090505</dcterms:title>
+    <dcterms:description>''Bacillus subtilis'' consensus RBS</dcterms:description>
+    <SBOLCanvas:backboneCell>&lt;mxCell id="12" parent="11" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+    <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/RBS"/>
+    <sbol:sequence rdf:resource="https://sbolcanvas.org/BBa_K090505Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_R0052/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_R0052"/>
+    <sbol:displayId>BBa_R0052</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>cI 434</dcterms:title>
+    <dcterms:description>Promoter (434 cI regulated)</dcterms:description>
+    <SBOLCanvas:backboneCell>&lt;mxCell id="10" parent="9" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+    <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:sequence rdf:resource="https://sbolcanvas.org/BBa_R0052Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K823003/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K823003"/>
+    <sbol:displayId>BBa_K823003</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BBa_K823003</dcterms:title>
+    <dcterms:description>P&lt;sub&gt;veg&lt;/sub&gt;</dcterms:description>
+    <SBOLCanvas:backboneCell>&lt;mxCell id="3" parent="2" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+    <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:sequence rdf:resource="https://sbolcanvas.org/BBa_K823003Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010"/>
+    <sbol:displayId>BBa_K1444010</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>BBa_K1444010</dcterms:title>
+    <dcterms:description>Composite promoter and weak B. subtilis RBS - C1-434</dcterms:description>
+    <SBOLCanvas:backboneCell>&lt;mxCell id="5" parent="4" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry" height="1.0" width="150.0" y="50.0"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+    <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:role rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K823003_1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K823003_1"/>
+        <sbol:displayId>BBa_K823003_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <SBOLCanvas:glyphCell>&lt;mxCell id="6" parent="4" style="sequenceFeatureGlyphPro (Promoter)" value="https://synbiohub.org/public/igem/BBa_K823003/1" vertex="1"&gt;&lt;mxGeometry as="geometry" height="100.0" width="50.0"/&gt;&lt;/mxCell&gt;</SBOLCanvas:glyphCell>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K823003/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K090505_3/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K090505_3"/>
+        <sbol:displayId>BBa_K090505_3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <SBOLCanvas:glyphCell>&lt;mxCell id="8" parent="4" style="sequenceFeatureGlyphRBS (Ribosome Binding Site)" value="https://synbiohub.org/public/igem/BBa_K090505/1" vertex="1"&gt;&lt;mxGeometry as="geometry" height="100.0" width="50.0" x="100.0"/&gt;&lt;/mxCell&gt;</SBOLCanvas:glyphCell>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_K090505/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_R0052_2/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_R0052_2"/>
+        <sbol:displayId>BBa_R0052_2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <SBOLCanvas:glyphCell>&lt;mxCell id="7" parent="4" style="sequenceFeatureGlyphPro (Promoter)" value="https://synbiohub.org/public/igem/BBa_R0052/1" vertex="1"&gt;&lt;mxGeometry as="geometry" height="100.0" width="50.0" x="50.0"/&gt;&lt;/mxCell&gt;</SBOLCanvas:glyphCell>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+        <sbol:definition rdf:resource="https://synbiohub.org/public/igem/BBa_R0052/1"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation2/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation2"/>
+        <sbol:displayId>BBa_K1444010Annotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation2/location2/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation2/location2"/>
+            <sbol:displayId>location2</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>284</sbol:start>
+            <sbol:end>294</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K090505_3/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation0"/>
+        <sbol:displayId>BBa_K1444010Annotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation0/location0/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation0/location0"/>
+            <sbol:displayId>location0</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>237</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K823003_1/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation1"/>
+        <sbol:displayId>BBa_K1444010Annotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation1/location1/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation1/location1"/>
+            <sbol:displayId>location1</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>238</sbol:start>
+            <sbol:end>283</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_R0052_2/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Constraint2/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Constraint2"/>
+        <sbol:displayId>BBa_K1444010Constraint2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_R0052_2/1"/>
+        <sbol:object rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K090505_3/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Constraint1"/>
+        <sbol:displayId>BBa_K1444010Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K823003_1/1"/>
+        <sbol:object rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_R0052_2/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="https://sbolcanvas.org/BBa_K1444010Sequence"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://sbolcanvas.org/BBa_R0052Sequence">
+    <sbol:persistentIdentity rdf:resource="https://sbolcanvas.org/BBa_R0052Sequence"/>
+    <sbol:displayId>BBa_R0052Sequence</sbol:displayId>
+    <sbol:elements>ttgacaaacaagatacattgtatgaaaatacaagaaagtttgttga</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://sbolcanvas.org/BBa_K090505Sequence">
+    <sbol:persistentIdentity rdf:resource="https://sbolcanvas.org/BBa_K090505Sequence"/>
+    <sbol:displayId>BBa_K090505Sequence</sbol:displayId>
+    <sbol:elements>aaaggaggtgt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://sbolcanvas.org/BBa_K823003Sequence">
+    <sbol:persistentIdentity rdf:resource="https://sbolcanvas.org/BBa_K823003Sequence"/>
+    <sbol:displayId>BBa_K823003Sequence</sbol:displayId>
+    <sbol:elements>ggagttctgagaattggtatgccttataagtccaattaacagttgaaaacctgcataggagagctatgcgggttttttattttacataatgatacataatttaccgaaacttgcggaacataattgaggaatcatagaattttgtcaaaataattttattgacaacgtcttattaacgttgatataatttaaattttatttgacaaaaatgggctcgtgttgtacaataaatgtagt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://sbolcanvas.org/BBa_K1444010Sequence">
+    <sbol:persistentIdentity rdf:resource="https://sbolcanvas.org/BBa_K1444010Sequence"/>
+    <sbol:displayId>BBa_K1444010Sequence</sbol:displayId>
+    <sbol:elements>ggagttctgagaattggtatgccttataagtccaattaacagttgaaaacctgcataggagagctatgcgggttttttattttacataatgatacataatttaccgaaacttgcggaacataattgaggaatcatagaattttgtcaaaataattttattgacaacgtcttattaacgttgatataatttaaattttatttgacaaaaatgggctcgtgttgtacaataaatgtagttactagagttgacaaacaagatacattgtatgaaaatacaagaaagtttgttgatactagagaaaggaggtgt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns="http://sbols.org/v1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <DnaComponent rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/1">
+    <displayId>BBa_K1444010</displayId>
+    <name>BBa_K1444010</name>
+    <description>Composite promoter and weak B. subtilis RBS - C1-434</description>
+    <SBOLCanvas:backboneCell>&lt;mxCell id="5" parent="4" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry" height="1.0" width="150.0" y="50.0"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+    <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000167"/>
+    <rdf:type rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+    <dnaSequence>
+      <DnaSequence rdf:about="https://sbolcanvas.org/BBa_K1444010Sequence">
+        <nucleotides>ggagttctgagaattggtatgccttataagtccaattaacagttgaaaacctgcataggagagctatgcgggttttttattttacataatgatacataatttaccgaaacttgcggaacataattgaggaatcatagaattttgtcaaaataattttattgacaacgtcttattaacgttgatataatttaaattttatttgacaaaaatgggctcgtgttgtacaataaatgtagttactagagttgacaaacaagatacattgtatgaaaatacaagaaagtttgttgatactagagaaaggaggtgt</nucleotides>
+      </DnaSequence>
+    </dnaSequence>
+    <annotation>
+      <SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation0/1">
+        <precedes rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation1/1"/>
+        <bioStart>1</bioStart>
+        <bioEnd>237</bioEnd>
+        <strand>+</strand>
+        <subComponent>
+          <DnaComponent rdf:about="https://synbiohub.org/public/igem/BBa_K823003/1">
+            <displayId>BBa_K823003</displayId>
+            <name>BBa_K823003</name>
+            <description>P&lt;sub&gt;veg&lt;/sub&gt;</description>
+            <SBOLCanvas:backboneCell>&lt;mxCell id="3" parent="2" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+            <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000167"/>
+            <rdf:type rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+            <dnaSequence>
+              <DnaSequence rdf:about="https://sbolcanvas.org/BBa_K823003Sequence">
+                <nucleotides>ggagttctgagaattggtatgccttataagtccaattaacagttgaaaacctgcataggagagctatgcgggttttttattttacataatgatacataatttaccgaaacttgcggaacataattgaggaatcatagaattttgtcaaaataattttattgacaacgtcttattaacgttgatataatttaaattttatttgacaaaaatgggctcgtgttgtacaataaatgtagt</nucleotides>
+              </DnaSequence>
+            </dnaSequence>
+          </DnaComponent>
+        </subComponent>
+      </SequenceAnnotation>
+    </annotation>
+    <annotation>
+      <SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation2/1">
+        <bioStart>284</bioStart>
+        <bioEnd>294</bioEnd>
+        <strand>+</strand>
+        <subComponent>
+          <DnaComponent rdf:about="https://synbiohub.org/public/igem/BBa_K090505/1">
+            <displayId>BBa_K090505</displayId>
+            <name>BBa_K090505</name>
+            <description>''Bacillus subtilis'' consensus RBS</description>
+            <SBOLCanvas:backboneCell>&lt;mxCell id="12" parent="11" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+            <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000139"/>
+            <rdf:type rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/RBS"/>
+            <dnaSequence>
+              <DnaSequence rdf:about="https://sbolcanvas.org/BBa_K090505Sequence">
+                <nucleotides>aaaggaggtgt</nucleotides>
+              </DnaSequence>
+            </dnaSequence>
+          </DnaComponent>
+        </subComponent>
+      </SequenceAnnotation>
+    </annotation>
+    <annotation>
+      <SequenceAnnotation rdf:about="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation1/1">
+        <precedes rdf:resource="https://synbiohub.org/public/igem/BBa_K1444010/BBa_K1444010Annotation2/1"/>
+        <bioStart>238</bioStart>
+        <bioEnd>283</bioEnd>
+        <strand>+</strand>
+        <subComponent>
+          <DnaComponent rdf:about="https://synbiohub.org/public/igem/BBa_R0052/1">
+            <displayId>BBa_R0052</displayId>
+            <name>cI 434</name>
+            <description>Promoter (434 cI regulated)</description>
+            <SBOLCanvas:backboneCell>&lt;mxCell id="10" parent="9" style="backbone" vertex="1"&gt;&lt;mxGeometry as="geometry"/&gt;&lt;/mxCell&gt;</SBOLCanvas:backboneCell>
+            <SBOLCanvas:textBoxes>&lt;Array/&gt;</SBOLCanvas:textBoxes>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SO_0000167"/>
+            <rdf:type rdf:resource="http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory"/>
+            <dnaSequence>
+              <DnaSequence rdf:about="https://sbolcanvas.org/BBa_R0052Sequence">
+                <nucleotides>ttgacaaacaagatacattgtatgaaaatacaagaaagtttgttga</nucleotides>
+              </DnaSequence>
+            </dnaSequence>
+          </DnaComponent>
+        </subComponent>
+      </SequenceAnnotation>
+    </annotation>
+  </DnaComponent>
+</rdf:RDF>
